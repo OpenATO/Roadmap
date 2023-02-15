@@ -33,7 +33,7 @@ The Compliance Dashboard will provide a clear and concise view of the status of 
 The Status Manager will provide a centralized platform for tracking compliance status and managing outstanding tasks for compliance failures. The product will help streamline the control implementation process and ensure that compliance is done in parallel to development.
 
 ```mermaid
-graph LR
+graph TD
 A[Intuitive User Interface] --> B[View the Recipes Next to the Tasks]
 B --> C[Clearly Defined Responsibility and Action Items]
 C --> D[Compliance Dashboard]
