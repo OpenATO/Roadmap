@@ -22,15 +22,24 @@ The Monitoring & Review product will provide agencies with the tools and automat
 ```mermaid
 graph TD
 
-
+subgraph Now
 A[Github Monitoring Agent]
-A --> B[Gitlab Monitoring Agent]
-A --> E[Audit Trail]
-A --> C[CI/CD Cypress Tests]
-C --> D[Infrastructure Monitoring]
+end
 
-End
+subgraph Next
+B[Gitlab Monitoring Agent]
+E[Audit Trail]
+C[CI/CD Cypress Tests]
+end
 
+subgraph Later
+D[Infrastructure Monitoring]
+end
+
+A -->|Next| B
+A -->|Next| E
+A -->|Next| C
+C -->|Later| D
 ```
 
 ### Now
