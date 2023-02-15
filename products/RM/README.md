@@ -16,7 +16,7 @@ The Requirement Manager is designed to streamline the creation and management of
 
 The Agency Profile Builder provides a clear workflow for the creation and management of the agency profile. Teams involved in the creation of the agency profile are guided through the process with questions and pre-filled content to help streamline the creation process.
 
-#### Impact Profile(s) Builder
+#### Impact Profile Builder
 
 The Impact Profile Builder builds on the foundation of the Agency Profile. Once the agency profile is complete, users answer questions to generate their Impact Profiles. These profiles are then used to populate the Agency Knowledge Base and Component Library with applicable components and implementation tasks.
 
@@ -34,7 +34,7 @@ subgraph Now
 A[Agency Profile Builder]
 end
 subgraph Next
-B[Impact Profile(s) Builder]
+B[Impact Profile Builder]
 end
 subgraph Later
 C[Agency Profile Manager]
