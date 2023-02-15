@@ -36,10 +36,8 @@ subgraph Later
 D[Infrastructure Monitoring]
 end
 
-A -->|Next| B
-A -->|Next| E
-A -->|Next| C
-C -->|Later| D
+Now --> Next
+Next --> Later
 ```
 
 ### Now
