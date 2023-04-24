@@ -34,6 +34,7 @@ body:
         - ⚙️ DevOps
         - ♿ Accessability
         - 🏰 Security
+        - 🎨 Design
         - Unknown/TBD/Other
     validations:
       required: true
